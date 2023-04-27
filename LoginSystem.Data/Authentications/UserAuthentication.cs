@@ -20,14 +20,14 @@ namespace LoginSystem.Data.Authentications
         {
             Console.Write("Enter your email: ");
             string Email = Console.ReadLine().Trim();
-            while (!UserValidation.CheckEmail(Email) && UserRepository.EmailIsUnique(Email))
+            while (!UserValidation.CheckEmail(Email) || UserRepository.EmailIsUnique(Email))
             {
                 Console.Write("Enter a valid email: ");
                 Email = Console.ReadLine().Trim();
             }
             Console.Write("Enter your password: ");
             string Password = Console.ReadLine().Trim();
-            User Result = UserRepository.GetAllAsync().Find(user => user.Password == Password);
+            User Result = UserRepository.GetAllAsync().Find(user => user.Email == Email && user.Password == Password);
             if (Result != null)
             { Console.WriteLine($"Welcome to your account, {Result.Name} {Result.Surname}!"); }
             else { Console.WriteLine("Incorrect password"); }
@@ -61,7 +61,7 @@ namespace LoginSystem.Data.Authentications
         {
             Console.Write("Enter your email: ");
             string NewEmail = Console.ReadLine().Trim();
-            while (UserRepository.EmailIsUnique(NewEmail) && !(UserValidation.CheckEmail(NewEmail)))
+            while (!UserRepository.EmailIsUnique(NewEmail) || !UserValidation.CheckEmail(NewEmail))
             {
                 Console.Write("Enter a valid email: ");
                 NewEmail = Console.ReadLine().Trim();
