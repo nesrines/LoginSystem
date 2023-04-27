@@ -2,6 +2,7 @@
 {
     public interface IUserService
     {
-
+        public void Register();
+        public void Login();
     }
 }

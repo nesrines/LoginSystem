@@ -1,0 +1,15 @@
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\bin\Debug\net6.0\LoginSystem.Data.deps.json
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\bin\Debug\net6.0\LoginSystem.Data.dll
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\bin\Debug\net6.0\LoginSystem.Data.pdb
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\bin\Debug\net6.0\LoginSystem.Core.dll
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\bin\Debug\net6.0\LoginSystem.Core.pdb
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\obj\Debug\net6.0\LoginSystem.Data.csproj.AssemblyReference.cache
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\obj\Debug\net6.0\LoginSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\obj\Debug\net6.0\LoginSystem.Data.AssemblyInfoInputs.cache
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\obj\Debug\net6.0\LoginSystem.Data.AssemblyInfo.cs
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\obj\Debug\net6.0\LoginSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\obj\Debug\net6.0\LoginSystem.Data.csproj.CopyComplete
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\obj\Debug\net6.0\LoginSystem.Data.dll
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\obj\Debug\net6.0\refint\LoginSystem.Data.dll
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\obj\Debug\net6.0\LoginSystem.Data.pdb
+C:\Users\nasrinfa\source\repos\LoginSystem\LoginSystem.Data\obj\Debug\net6.0\ref\LoginSystem.Data.dll
